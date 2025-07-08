@@ -1,0 +1,4 @@
+cd build
+rm -rf *
+cmake .. -DCMAKE_TOOLCHAIN_FILE=D:/vcpkg/scripts/buildsystems/vcpkg.cmake -G "Visual Studio 17 2022" -A x64
+cmake --build . --config Release
